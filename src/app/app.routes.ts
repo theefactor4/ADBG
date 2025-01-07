@@ -25,7 +25,7 @@ import { CheckoutComponent } from './pages/checkout/checkout.component';
 export const routes: Routes = [
     {path:"",redirectTo:"ADBGames",pathMatch:"full"},
     {path:'home',children:[
-        {path:'home-one',component:HomeOneComponent,title:"ADBGames"},
+        {path:'ADBGames',component:HomeOneComponent,title:"ADBGames"},
         {path:'home-two',component:HomeTwoComponent,title:"Home Two - Mykd"},
         {path:'home-three',component:HomeThreeComponent,title:"Home Three - Mykd"},
         {path:'home-four',component:HomeFourComponent,title:"Home Four - Mykd"},
