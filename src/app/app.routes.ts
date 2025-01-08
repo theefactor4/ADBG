@@ -1,5 +1,5 @@
 import { Routes } from '@angular/router';
-import { HomeOneComponent } from './home/home-skibidi/home-skibidi.component';
+import { HomeOneComponent } from './home/home-one/home-one.component';
 import { HomeTwoComponent } from './home/home-two/home-two.component';
 import { HomeThreeComponent } from './home/home-three/home-three.component';
 import { HomeFourComponent } from './home/home-four/home-four.component';
@@ -23,15 +23,15 @@ import { CartComponent } from './pages/cart/cart.component';
 import { CheckoutComponent } from './pages/checkout/checkout.component';
 
 export const routes: Routes = [
-    {path:"",redirectTo:"ADBGames",pathMatch:"full"},
+    {path:"",redirectTo:"/home/home-one",pathMatch:"full"},
     {path:'home',children:[
-        {path:'ADBGames',component:HomeOneComponent,title:"Welcome to ADBGames"},
+        {path:'home-one',component:HomeOneComponent,title:"Home One - Mykd"},
         {path:'home-two',component:HomeTwoComponent,title:"Home Two - Mykd"},
         {path:'home-three',component:HomeThreeComponent,title:"Home Three - Mykd"},
         {path:'home-four',component:HomeFourComponent,title:"Home Four - Mykd"},
         {path:'home-five',component:HomeFiveComponent,title:"Home Five - Mykd"},
     ]},
-    {path:'tournament',component:TournamentComponent,title:"tournament - Mykd"},
+    {path:'tournament',component:TournamentComponent,title:"Tournament - Mykd"},
     {path:'tournament-details',component:TournamentDetailsComponent,title:"Tournament Single - Mykd"},
     {path:'services',component:ServicesComponent,title:"Services - Mykd"},
     {path:'service-details',component:ServiceDetailsComponent,title:"Services Single - Mykd"},
