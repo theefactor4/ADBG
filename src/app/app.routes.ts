@@ -32,7 +32,7 @@ export const routes: Routes = [
         {path:'home-five',component:HomeFiveComponent,title:"Home Five - Mykd"},
     ]},
     {path:'tournament',component:TournamentComponent,title:"Tournament - Mykd"},
-    {path:'tournament-details',component:TournamentDetailsComponent,title:"Tournament Single - Mykd"},
+    {path:'tournament-details',component:TournamentDetailsComponent,title:"Tournament SingleSkibidi - Mykd"},
     {path:'services',component:ServicesComponent,title:"Services - Mykd"},
     {path:'service-details',component:ServiceDetailsComponent,title:"Services Single - Mykd"},
     {path:'team-details/:id',component:TeamDetailsComponent,title:"Team Single - Mykd"},
