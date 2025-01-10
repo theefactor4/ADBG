@@ -11,7 +11,7 @@ import { BackToTopComponent } from './shared/components/back-to-top/back-to-top.
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'MYKD - eSports and Gaming NFT Angular Template';
+  title = 'MYKD - eSports and Gaming NFT Angular Template and skibiditoilet';
 
   constructor(private router: Router) {}
 
