@@ -36,8 +36,8 @@ const menu_data:IMenuDataType[] = [
     title:'TOURNAMENT',
     link:'#',
     sub_menu:[
-      {title:'TOURNAMENT',link:'/tournament'},
-      {title:'TOURNAMENT Single',link:'/tournament-details'},
+      {title:'TOURNAMENT Skibidi',link:'/tournament'},
+      {title:'TOURNAMENT Ohio Single',link:'/tournament-details'},
     ]
   },
   {
@@ -45,13 +45,13 @@ const menu_data:IMenuDataType[] = [
     title:'PAGES',
     link:'#',
     sub_menu:[
-      {title:'Gaming Shop',link:'/shop'},
+      {title:'Gaming Shopidy',link:'/shop'},
       {title:'Shop Details',link:'/shop-details/1'},
       {title:'Cart',link:'/cart'},
       {title:'Checkout',link:'/checkout'},
       {title:'Our Services',link:'/services'},
       {title:'Services Details',link:'/service-details'},
-      {title:'Player Details',link:'/team-details/1'},
+      {title:'Player Diddyss',link:'/team-details/1'},
       {title:'Login',link:'/login'},
       {title:'Register',link:'/register'},
       {title:'Reset Password',link:'/reset-password'},
