@@ -42,7 +42,7 @@ export class RegisterComponent {
     this.formSubmitted = true;
     if (this.registerForm.valid) {
       console.log('register-form-value', this.registerForm.value);
-      alert(`Registration successful`);
+      alert(`Registration successful ohio toilet`);
 
       // Reset the form
       this.registerForm.reset();
