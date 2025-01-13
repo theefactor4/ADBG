@@ -13,7 +13,7 @@
             values(?,?,?,?)")
         $stmt->bind_param("ssss",$fname,$lname,$email",$password);
         $stmt-?execute();
-        echo "registration success";
+        echo "registration success ohio toilet";
         $stmt->close();
         $conn->close();
     }
